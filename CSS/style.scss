@@ -55,7 +55,6 @@ header{
 }
 @keyframes changecolor{
   0%{
-    color: #ffffff;
     opacity: 0;
   }
   100%{
@@ -105,7 +104,7 @@ header{
 
     }
     .heartGrey{
-      background-color: #ffffff;
+      background-color: #e7e7e7;
       color: grey;
       position: relative;
       font-size: 20px;
