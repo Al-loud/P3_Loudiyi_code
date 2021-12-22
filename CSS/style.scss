@@ -14,9 +14,11 @@ body{
 }
 
 header{
+  padding-top: 8px;
+  padding-bottom: 40px;
   img{
-    height: 40px;
-    width: 40%;
+    height: 30px;
+    width: 36%;
     margin-left: 30%;
   }
   i{
@@ -26,20 +28,72 @@ header{
     display: flex;
     flex-direction: column;
   }
+  h2{
+    width: 60%;
+    padding-left: 20%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  p{
+    font-size: 20px;
+    width: 80%;
+    padding-left: 10%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .reservation{
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 50px;
+  }
 }
-
+.ville{
+  background-color: rgb(218, 218, 218);
+  border-top: 3px solid rgb(180, 180, 180);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  padding-left: 30%;
+  i{
+    padding-right: 8px;
+  }
+}
 .exploration{
   color: #ffffff;
   background: #ff00cc;
   background: -webkit-linear-gradient(to left, #9356DC, #FF79DA);
   background: linear-gradient(to left, #9356DC, #FF79DA);
-  font-size: 30px;
+  font-size: 15px;
   cursor: pointer;
-  border-radius: 20px;
-  padding: 5px 15px;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-left: 25%;
+  box-shadow: 2px 3px 4px rgb(177, 176, 176);
 }
 .exploration:hover{
   opacity: 0.8;
+}
+.fonction{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+
+  a{
+    background-color: rgb(224, 224, 224);
+    border-radius: 15px;
+    padding: 20px;
+    @include centre();
+    margin-bottom: 15px;
+    width: 85%;
+    margin-left: 3%;
+    box-shadow: 3px 1px 3px 3px rgb(209, 208, 208);
+    text-decoration: none;
+    i{
+      
+    }
+  }
 }
 .restaurant{
   background-color: #e7e7e7;
