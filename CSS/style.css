@@ -186,8 +186,8 @@ header .reservation {
 header a {
   color: #ffffff;
   background: #ff00cc;
-  background: -webkit-gradient(linear, right top, left top, from(#9356DC), to(#FF79DA));
-  background: linear-gradient(to left, #9356DC, #FF79DA);
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to top, #9356DC, #FF79DA);
   font-size: 15px;
   cursor: pointer;
   border: none;
