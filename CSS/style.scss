@@ -97,8 +97,8 @@ header{
   }
   p{
     font-size: 20px;
-    width: 80%;
-    padding-left: 10%;
+    width: 90%;
+    padding-left: 5%;
     text-align: center;
     margin-bottom: 25px;
   }
@@ -129,9 +129,8 @@ header a{
   border: none;
   text-decoration: none;
   border-radius: 40px;
-  padding: 10px 20px;
-  margin-left: 30%;
-  width: 40%;
+  padding: 14px 30px;
+  margin-left: 20%;
   box-shadow: 2px 3px 4px rgb(177, 176, 176);
 }
 .exploration:hover{
@@ -142,7 +141,10 @@ header a{
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-
+  h2{
+    margin-left: 2%;
+    margin-bottom: 25px;
+  }
   a{
     background-color: rgb(224, 224, 224);
     border-radius: 15px;
@@ -150,7 +152,7 @@ header a{
     @include centre();
     margin-bottom: 15px;
     width: 80%;
-    margin-left: 5%;
+    margin-left: 4%;
     box-shadow: 3px 1px 3px 3px rgb(209, 208, 208);
     text-decoration: none;
     color: black;
@@ -159,10 +161,16 @@ header a{
       width: 15px;
       padding: 1px 0px 1px 6px;
       border-radius: 50%;
-      margin-left: -140px;
+      margin-left: -50px;
       margin-right: 80px;
       color: #ffffff;
     }
+  }
+  i{
+    font-size: 18px;
+  }
+  .fonctionP{
+    padding-left: 40px;
   }
 }
 .restaurant{
@@ -192,7 +200,7 @@ header a{
 .carteRestaurant{
   background-color: #ffffff;
   width: 94%;
-  margin-left: 3%;
+  margin-left: 2%;
   box-shadow: 4px 3px 4px 3px rgb(211, 211, 211);
   border-radius: 15px;
   margin-bottom: 15px;
@@ -243,12 +251,13 @@ header a{
     position: relative;
   }
   p{
+    width: auto;
     position: absolute;
     z-index: 6;
     background-color: #99e2d0;
     color: #1b9779;
     padding: 5px 15px 7px 15px;
-    margin-left: 71%;
+    margin-left: 65% ;
     margin-top: 15px;
     border-radius: 2.5px;
     font-weight: bold;
